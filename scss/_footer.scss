@@ -1,0 +1,113 @@
+footer{background-color: #1a1a1a;
+.container {
+    .FIRST {
+        p {
+            font-size:12px;
+            margin-top: 5px;
+            color: #666666;
+        }
+        a {
+            text-decoration:none;
+            font-size: 12px;
+            color: #666666;
+        }
+        h5 {
+            color: white;
+            font-size: 12px;
+        }
+    }
+
+    .SECOND {
+        h5{
+            font-size: 12px;
+            color: #ffffff;
+        }
+        ul {
+            list-style: none; 
+          }
+          
+          ul li::before {
+            content: "\2022";
+            color: #989898;
+            font-weight: bold;
+            display: inline-block; 
+            width: 1em; 
+            margin-left: -2em;
+          }
+
+          li { margin-bottom: 5px;
+              a{
+                  text-decoration: none;
+                  border-bottom: 2px solid #232323;
+                  font-size: 12px;
+              }
+          }
+          
+    }
+    .THIRD{
+        h5{
+            font-size: 12px;
+            color: white;
+            
+        }
+        h6 {
+            color: #666666;
+            font-size: 14px;
+        }
+        a{
+            text-decoration: none;
+            font-size: 12px;
+        }
+        p{
+            font-size: 10px;
+            color: #666666;
+        }
+        
+    }
+    .FOURTH {
+        h6{
+            color: white;
+            font-size: 12px;
+        }
+        input{
+            background-color: #232323;
+            margin-top: 10px;
+            border: none;
+            padding:5px 8px;
+            
+        }
+
+        ::placeholder{
+            color: #989898;
+        }
+        textarea{
+            background-color: #232323;
+            margin-top: 10px;
+            padding:5px 8px;
+        }
+        a{
+            text-decoration: none;
+            padding: 5px 8px;
+            background-color: #0099ff;
+            border-radius: 5px;
+            color: white;
+            font-size: 12px;
+        }
+    }
+  
+}
+.paraaa{
+    color: #666666;
+    font-size: 12px;
+}
+.paraa2{
+    color: #666666;
+    font-size: 12px;
+}
+.rw {
+    background-color: #222222;
+    padding: 10px 20px;
+    border-top: 2px solid #444444;
+    margin-bottom:-20px;
+}
+}
